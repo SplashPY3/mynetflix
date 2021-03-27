@@ -1,0 +1,17 @@
+<div class="logIn" id="signIn">
+    <img id=img2 src="/images/NLogo.jpeg">
+    <form class="form" action="/register" method="post">
+        <label id="SignIn"><h1>Sign up</h1></label>
+        {{#if flashMessages.error}}
+        <p class="login-error">Error: {{flashMessages.error}}</p>
+        {{/if}}
+        <p></p>
+        <input name="username" type=text placeholder="Username" required>
+        <p></p>
+        <input name="email" type=email placeholder="E-mail" required>
+        <p></p>
+        <input name="password" type="password" placeholder="Password" required>
+        <p></p>
+        <input id="submitInput" type="submit" value="Submit">
+    </form>
+</div>

@@ -1,0 +1,866 @@
+div.logIn {
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body div#register{
+  background-image: url("/images/Netflix-Background.jpg");
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body #signIn {
+  background-image: linear-gradient(black, red);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#img {
+  height:400px;
+  width:500px;
+}
+
+#LogIn {
+  color: white;
+}
+
+#SignIn {
+  color: white;
+  margin-top: 150px;
+}
+
+#img2 {
+  margin-top: 50px;
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+}
+
+#submitInput {
+  margin-top: 20px;
+}
+
+h5 {
+  color: white;
+}
+
+#login {
+  margin-top: 20px;
+  visibility: visible;
+}
+
+body#main {
+  background: linear-gradient(red, black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img#house {
+  height:50px;
+  width:50px;
+  margin: auto 0;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10px;
+}
+
+img#search {
+  height:30px;
+  width:30px;
+  margin: auto 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+button#login {
+  border: 0px;
+  border-radius: 5%;
+}
+
+body#search {
+  background-image: linear-gradient(to right, red , black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div input#search {
+  width: 150px;
+  height:25px;
+}
+input#search {
+  display: block;
+  margin : 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  border-radius: 5%;
+  border: 0;
+}
+
+#img3 {
+  display: block;
+  margin : 0 auto;
+  margin-top: 50px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+#img4 {
+  display: block;
+  margin : 0 auto;
+  margin-top: 50px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+button#search {
+  margin : 0 auto;
+  border-radius: 10%;
+  border: 0;
+  color: gray;
+  font-size: 10px;
+  position: relative;
+  display: block;
+  margin-top: 40px;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+}
+
+input#enter {
+  margin : 0 auto;
+  border-radius: 10%;
+  border: 0;
+  color: gray;
+  font-size: 15px;
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+}
+
+div.movieBoxTenet, div.movieBoxTenet img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(#0193FB, #867F87);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxTenet {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxTenet img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxTenet img:hover{
+  width: 100%;
+  height: auto;
+}
+
+a#watchBtn {
+  color: white;
+  border: solid white 2px;
+  border-radius: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  width: 50px;
+}
+
+a#movieBtn {
+  color: white;
+  border: solid white 2px;
+  border-radius: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  margin-top: 60px;
+  width: 80px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+body.category {
+  background: linear-gradient(red, black);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.category:not(body.category) {
+  color: white;
+}
+
+div.movieBoxBatman, div.movieBoxBatman img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(red, black);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+
+div.movieBoxBatman {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxBatman img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxBatman img:hover{
+  width: 100%;
+  height: auto;
+}
+
+body.TENET {
+  background-image: url("MoviePages/img/TenetBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+iframe.child {
+  justify-content: center;
+}
+
+.parent {
+  display: flex; 
+}
+
+body.BATMAN {
+  background-image: url("MoviePages/img/BatmanBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div.movieBoxAntMan, div.movieBoxAntMan img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(red, rgb(0, 195, 255));
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxAntMan{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxAntMan img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxAntMan img:hover{
+  width: 100%;
+  height: auto;
+}  
+
+body.ANTMAN {
+  background-image: url("MoviePages/img/AntmanWasp.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div.movieBoxTenet:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxBatman:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+img.ntflxLogo {
+  height: 150px;
+  width: 400px;
+  margin: auto;
+}
+
+div.movieBoxAntMan:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+/* copy until here */
+div.movieBoxMK:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxMK, div.movieBoxMK img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(gold, black);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxMK{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxMK img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxMK img:hover{
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxMK:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.MK {
+  background-image: url("MoviePages/img/MKBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* different movie above me */
+
+div.movieBoxTC:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxTC, div.movieBoxTC img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(gold, silver);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxTC{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxTC img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxTC img:hover{
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxTC:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Tom {
+  background-image: url("MoviePages/img/TCBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* different movie above me */
+
+div.movieBoxBoss:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxBoss, div.movieBoxBoss img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(#00EBAE, silver);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxBoss{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxBoss img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxBoss img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxBoss:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Boss {
+  background-image: url("MoviePages/img/BossBackground.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/* different movie above me */
+
+div.movieBoxGodzilla:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxGodzilla, div.movieBoxGodzilla img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(#98E6ED, #E60C00);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxGodzilla{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxGodzilla img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxGodzilla img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxGodzilla:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Godzilla {
+  background-image: url("MoviePages/img/GodzillaBackground.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* copy from here, until a sign */
+
+div.movieBoxBloodshot:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxBloodshot, div.movieBoxBloodshot img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(silver, red);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxBloodshot{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxBloodshot img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxBloodshot img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxBloodshot:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Bloodshot {
+  background-image: url("MoviePages/img/BloodshotBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* bloodshot is above me */
+
+div.movieBoxGhostbusters:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxGhostbusters, div.movieBoxGhostbusters img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(green, silver);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxGhostbusters{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxGhostbusters img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxGhostbusters img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxGhostbusters:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Ghostbusters {
+  background-image: url("MoviePages/img/GhostBusters\ Background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* ghostbusters above me */
+
+div.movieBoxLoki:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxLoki, div.movieBoxLoki img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(green, black);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxLoki{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxLoki img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxLoki img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxLoki:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.Loki {
+  background-image: url("MoviePages/img/LokiBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* loki above me */
+
+div.movieBoxF9:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxF9, div.movieBoxF9 img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(silver, #E7E0DE);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxF9{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxF9 img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxF9 img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxF9:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.F9 {
+  background-image: url("MoviePages/img/F9Background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* fast and furious 9 above me */
+
+div.movieBoxBlackWidow:hover {
+  width: 500px;
+  height: 500px;
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+div.movieBoxBlackWidow, div.movieBoxBlackWidow img {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(red, black);
+  transition: width 1.5s, height 1.5s;
+  overflow: hidden;
+  color: white;
+}
+div.movieBoxBlackWidow{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+div.movieBoxBlackWidow img {
+  width: 100%;
+  height: auto;
+}
+
+div.movieBoxBlackWidow img:hover{
+  width: 100%;
+  height: auto; 
+}
+
+div.movieBoxBlackWidow:hover {
+  width: 500px;
+  height: 500px; 
+  color: white;
+  transition:overflow 0s ease 0.5s
+  overflow: visible;
+}
+
+body.blackWidow {
+  background-image: url("MoviePages/img/BlackWidow.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.sonic {
+  background-image: url("MoviePages/img/sonicBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.sonic2 {
+  background-image: url("MoviePages/img/sonic2Background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.guy {
+  background-image: url("MoviePages/img/freeGuyBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.spenser {
+  background-image: url("MoviePages/img/spenserBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.doctor {
+  background-image: url("MoviePages/img/doctorStrangeBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.woman {
+  background-image: url("MoviePages/img/wwBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.morbius {
+  background-image: url("MoviePages/img/morbiusBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body.scream {
+  background-image: url("MoviePages/img/screamBackground.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.login-error {
+  color: red;
+}

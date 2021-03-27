@@ -1,0 +1,19 @@
+<div class="logIn" id="register">
+    <img id=img src="/images/netflixLogo.png">
+    <form class="form" action="/login" method="post">
+        <label id="LogIn"><h1>{{title}}</h1></label>
+        {{#if flashMessages.error}}
+        <p class="login-error">Error: {{flashMessages.error}}</p>
+        {{/if}}
+        <p></p>
+        <input name="email" type="text" placeholder="E-mail" required>
+        <p></p>
+        <input name="password" type="password" placeholder="Password" required>
+        <p></p>
+        <input id="login" type="submit" value="Log in">
+        <h5 id="login">or</h5>
+    </form> 
+    <a id="login" href="/register">
+        <button id="login">Sign up</button>
+    </a>
+</div>
