@@ -1,0 +1,32 @@
+<div class="category">
+    <div class="row" >
+    <img class="ntflxLogo" src="/images/netflix_PNG7.png">
+</div>
+    <ul><a href="/">
+        <li><img id="house" src="/images/homePageLogo.png"></li>
+    </a>
+    </ul>
+    <ul><a href="/search">
+        <li><img id="search" src="/images/searchBarPage.png"></li>
+    </a>
+    </ul>
+    <ul><a href="/logout">
+        <li><img id="search" src="/images/exitLogo.png"></li>
+    </a>
+    </ul>
+    <div class="row">
+        {{#each movies}}
+        <div class="column">
+            <div class="movieBoxTenet">
+                <img src="/images/{{this.image}}" alt="{{this.title}}" style="width:100%">
+                <div class="movieText">
+                    <h3>{{this.title}}</h3>
+                    <p>{{this.description}}</p>
+                    <a href="/movies/{{this.id}}" id="watchBtn" class="btn">Watch</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+</div>

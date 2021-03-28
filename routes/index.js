@@ -64,5 +64,25 @@ router.post('/register', function(req, res, next) {
   }
 });
 
+router.get('/account', function(req, res, next) {
+  const sql = "SELECT * FROM movies";
+  db.query(sql, function (err, result) {
+      if (err) throw err;
+
+      res.render('account', { title: 'Your movies', movies: result});
+  });  
+});
+
+router.get('/movies/:id', function(req, res, next) {
+  const movieId = req.params.id;
+
+  const sql = "SELECT * FROM movies WHERE id = ?";
+  db.query(sql, [movieId], function (err, result) {
+      if (err) throw err;
+
+      res.render('movie', {movie: result[0]});
+  });  
+});
+
 
 module.exports = router;
