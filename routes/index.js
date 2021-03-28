@@ -24,6 +24,8 @@ router.post('/login', function(req, res, next) {
       db.query(sql, [email, md5(password)], function (err, result) {
           if (err) throw err;
           if (result.length > 0) {
+            req.session.user = result[0]
+
             res.redirect('/account');
           } else {
             loginError = "Login failed";
@@ -71,6 +73,12 @@ router.get('/account', function(req, res, next) {
 
       res.render('account', { title: 'Your movies', movies: result});
   });  
+});
+
+router.get('/logout', function(req, res, next) {
+  req.session.destroy(function(){
+    res.redirect('/');
+  })
 });
 
 router.get('/movies/:id', function(req, res, next) {
